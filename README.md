@@ -42,7 +42,7 @@ All services are orchestrated via Docker Compose, making it easy to spin up a fu
 
 2. **(Optional) Create a `.env` file**
    ```
-   CLICKHOUSE_SQLALCHEMY_URI=clickhouse+http://<user>:<password>@<host>:<port>/<database>
+   CLICKHOUSE_SQLALCHEMY_URI=clickhouse+http://<user>:<password>@<host>:<port>/
    SUPERSET_SECRET_KEY=your-very-secret-key
    SUPERSET_ENV=production
    # ...other variables...
