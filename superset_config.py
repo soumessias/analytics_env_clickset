@@ -1,0 +1,3 @@
+import os
+
+SECRET_KEY = os.environ.get('SUPERSET_SECRET_KEY', '2TID2sHLLzU8PP4SMG65MiTyEXZid2jxYc8PrKdqEVV9361Cz58aEfSS') 
