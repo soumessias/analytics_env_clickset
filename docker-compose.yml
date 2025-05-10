@@ -60,6 +60,8 @@ services:
       - ./superset_entrypoint.sh:/app/superset_entrypoint.sh
       - ./superset_config.py:/app/pythonpath/superset_config.py
     entrypoint: ["/bin/sh", "/app/superset_entrypoint.sh"]
+    env_file:
+      - .env
 
 volumes:
   superset_home:
